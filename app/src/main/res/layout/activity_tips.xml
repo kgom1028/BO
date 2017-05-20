@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_back"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionbar_height"
+            android:background="@color/color_black"
+            android:id="@+id/actionBar">
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/actionbar_info_icon_size"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_ic"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:clickable="true"
+                android:layout_marginRight="@dimen/actionbar_info_margin_left"
+                android:id="@+id/back_icon"
+                android:onClick="onClick"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+
+               >
+                <LinearLayout
+                    android:layout_width="@dimen/dimen_80dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:id="@+id/previous_btn">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/previous"
+                        android:textColor="#bc3e0d"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:layout_centerVertical="true"
+                            />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="@dimen/dimen_80dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:onClick="onClick"
+                    android:id="@+id/next_btn">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/next"
+                        android:textColor="#bc3e0d"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="16sp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/dimen_10dp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+        <com.kgom.binaryoptions.views.ViewPagerCustomDuration xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>

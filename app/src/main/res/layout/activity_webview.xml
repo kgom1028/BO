@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionbar_height"
+            android:background="@color/color_black"
+            android:id="@+id/actionBar">
+
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/actionbar_info_icon_size"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_ic"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="@dimen/actionbar_info_margin_left"
+                android:id="@+id/back_icon"
+                android:clickable="true"
+                android:onClick="onClick"
+                />
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/title"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+        <ProgressBar android:id="@+id/pro"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent" android:layout_height="4dp"
+            android:layout_gravity="top" android:max="100" android:paddingLeft="3dp"
+            android:paddingRight="3dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color_white">
+            <com.kgom.binaryoptions.views.ObservableWebView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/webView"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_white"
+                android:id="@+id/adContainer"
+                android:visibility="invisible">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ad_container"
+                    android:orientation="vertical">
+                </LinearLayout>
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_150dp"
+        android:id="@+id/loading_anim_bar"
+        android:background="@color/color_white">
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dimen_20dp"
+            android:src="@drawable/loading_anim"
+            android:id="@+id/loading_anim"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/dimen_50dp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

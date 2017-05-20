@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:id="@+id/background">
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionbar_height"
+            android:background="@color/color_black"
+            android:id="@+id/actionBar">
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/actionbar_info_icon_size"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_ic"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:clickable="true"
+                android:layout_marginRight="@dimen/actionbar_info_margin_left"
+                android:id="@+id/back_icon"
+                android:onClick="onClick"
+                />
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/title"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/option_height"
+            android:background="@drawable/drawable_button_dark_green"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:padding="5dp"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:id="@+id/basic_tutorial">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_white"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_normal"
+                android:text = "@string/basic_tutorial"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/option_height"
+            android:background="@drawable/drawable_button_dark_green"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:padding="5dp"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:id="@+id/video_tutorial">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_white"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_normal"
+                android:text = "@string/video_tutorial"/>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_marginBottom="@dimen/dimen_20dp"
+
+            android:src="@drawable/how"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

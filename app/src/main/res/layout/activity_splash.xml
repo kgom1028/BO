@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background"
+    android:background="@color/color_black"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_150dp"
+        android:id="@+id/loading_anim_bar"
+        android:background="@color/color_black">
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dimen_20dp"
+            android:src="@drawable/loading_anim_black"
+            android:id="@+id/loading_anim"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/dimen_50dp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

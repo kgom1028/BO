@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BinaryOptions</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="select_language">Select Language</string>
+    <string name="warning">WARNING</string>
+    <string name="warning_txt_1">Registration is currently</string>
+    <string name="warning_txt_2">unavailable</string>
+    <string name="warning_txt_3">in Russia, Japan, Australia,</string>
+    <string name="warning_txt_4">Iran, Israel, Canada, Syria, Sidan</string>
+    <string name="warning_txt_5">and the USA</string>
+    <string name="warning_txt_6">if you think you\'re seeing this message</string>
+    <string name="warning_txt_7">by mistake please contact</string>
+    <string name="english">English</string>
+    <string name="chinese">中文</string>
+    <string name="russian">Russian</string>
+    <string name="spanish">Spanish</string>
+    <string name="french">French</string>
+    <string name="german">German</string>
+    <string name="italian">Italian</string>
+    <string name="brazilian">Brazilian</string>
+    <string name="thiland">Thailand</string>
+    <string name="korean">Korean</string>
+    <string name="norway">Norsk</string>
+    <string name="sweden">Svenska</string>
+    <string name="portugal">Português</string>
+    <string name="arabic">Arabic</string>
+    <string name="indonesian">Indonesian</string>
+    <string name="open_account">Open Account</string>
+
+    <string name="feedback_mail">noreply@iqoption.binaryoptionsdevelopers.com</string>
+    <string name="feedback_subject">IQ Option App Feedback and Inquiry Form (com.kgom.binaryoptionsGP)</string>
+    <string name="mac_desktop_mail">Send me the link to the IQ Option MacOSX and Windows PC Desktop Site (com.kgom.binaryoptions)</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="exit">EXIT</string>
+    <string name="continue_iq">Continue to IQ Option</string>
+    <string name="alert_redirect">You will now be redirected to the USA and Worldwide approved Binary Option Auto Trading Robot. </string>
+    <string name="iq_robot_url">https://play.google.com/store/apps/details?id=com.app.p8153AJ</string>
+    <string name="google_play_url">http://app.appsflyer.com/com.iqoption/?pid=7745&amp;c=com.kgom.binaryoptionsGP</string>
+
+    <string name="exit_txt">Exit</string>
+    <string name="continue_txt">Continue</string>
+    <string name="alert_freedemo">Note: Once you complete the IQ Option FREE Registration, check your email inbox (Also check your SPAM or JUNK folders). And click on the email CONFIRMATION link. Or simply download the app and login with your registration credentials. (Prior to making a deposit, you will need to confirm your registered email)</string>
+    <string name="click_to_continue">Click To Continue</string>
+    <string name="terms_and_policy"><u>IQOption &quot;Terms &amp; Conditions&quot;</u></string>
+    <string name="signup_form">Demo Sign-Up Form</string>
+    <string name="discount">30% Promo Discount</string>
+    <string name="free_demo">Free $1000 Demo</string>
+    <string name="tournament">$100,000 Tournament</string>
+    <string name="iq_robot">IQ Option Robot</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="next">NEXT</string>
+    <string name="get_it">GET IT ON</string>
+    <string name="google_play">Google play</string>
+    <string name="notifications">Notifications</string>
+    <string name="terms_conditions_url">https://iqoption.com/cn/terms-and-conditions/terms-conditions</string>
+    <string name="terms_conditions_need">Please read the terms and conditions and check it.</string>
+    <string name="notification_time_format">MM/dd/yyyy HH:mm a</string>
+    <string name="basic_tutorial">BASIC TUTORIAL</string>
+    <string name="video_tutorial">VIDEO TUTORIAL</string>
+    
+    <string name="binary_url_1">http://goo.gl/NGlSC7</string>
+    <string name="binary_url_2">http://goo.gl/LofkZL</string>
+    <string name="binary_url_3">http://goo.gl/fAhzwX</string>
+    <string name="binary_url_4">http://goo.gl/2gfrzx</string>
+    <string name="binary_url_5">http://goo.gl/C6A43n</string>
+    <string name="option_url_1">http://goo.gl/MKQrv3</string>
+    <string name="option_url_2">https://s3.amazonaws.com/scratchypage/example+1/scratchy.html</string>
+    <string name="option_url_3">http://goo.gl/5PvWDD</string>
+    <string name="option_url_4">http://goo.gl/LeytF7</string>
+    <string name="option_url_5">https://s3.amazonaws.com/scratchypage/example+1/get-app-4391FI.html</string>
+    <string name="option_url_6">mailto:promos@iqoptionpromo.com</string>
+    <string name="appsflyer_dev_key">wNL8QQaTgFYggaoLRd3RJi</string>
+    <string name="daily_news_url"></string>
+    <string name="profit_hacks_url"></string>
+    <string name="trading_alerts_url">https://blog.iqoption.com/calendar?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&amp;category=_employment,_economicActivity,_inflation,_credit,_centralBanks,_confidenceIndex,_balance,_Bonds&amp;importance=3&amp;features=datepicker,timezone&amp;countries=25,6,72,22,17,10,35,43,56,110,11,26,12,4,5&amp;calType=week&amp;timeZone=55&amp;lang=1</string>
+    <string name="english_url">https://iqoption.com/land/register-long/en/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-kgom-binaryoptions-28-MAR-2017-ANDROID-EN</string>
+    <string name="russian_url">https://iqoption.com/land/registration/ru/?aff=7745&amp;afftrack=com.kgom.binaryoptionsGP-ru</string>
+    <string name="chinese_url">https://iqoption.com/land/register-long/cn/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-kgom-binaryoptions-28-MAR-2017-ANDROID-CN</string>
+    <string name="italian_url">https://iqoption.com/land/register-long/it/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-kgom-binaryoptions-28-MAR-2017-ANDROID-IT</string>
+    <string name="thiland_url">https://iqoption.com/land/register-long/th/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-kgom-binaryoptions-28-MAR-2017-ANDROID-TH</string>
+    <string name="german_url">https://iqoption.com/land/register-long/de/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-kgom-binaryoptions-28-MAR-2017-ANDROID-DE</string>
+    <string name="indonesian_url">https://iqoption.com/land/register-long/id/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-kgom-binaryoptions-28-MAR-2017-ANDROID-ID</string>
+    <string name="french_url">https://iqoption.com/promo/registration_fr/?aff=7745&amp;afftrack=IFRAME-com.kgom.binaryoptionsGP-fr</string>
+    <string name="spanish_url">https://iqoption.com/land/register-long/es/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-kgom-binaryoptions-28-MAR-2017-ANDROID-ES</string>
+    <string name="arabic_url">https://iqoption.com/land/register-long/ar/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-kgom-binaryoptions-28-MAR-2017-ANDROID-AR</string>
+    <string name="brazilian_url">https://iqoption.com/land/register-long/pt/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-kgom-binaryoptions-28-MAR-2017-ANDROID-PT</string>
+    <string name="korean_url">https://iqoption.com/land/register-long/ko/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-kgom-binaryoptions-28-MAR-2017-ANDROID-KO</string>
+    <string name="mac_desktop_url">https://iqoption.com/land/register-long/en/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-Desktop-Registration-kgom-binaryoptions-28-MAR-2017-ANDROID-EN</string>
+    <string name="video_tutorial_url">https://iqoption.com/en/tutorials?aff=7745&amp;afftrack=com.kgom.binaryoptionsGP-VIDEOS</string>
+    <string name="weekly_profit">https://s3.amazonaws.com/iq-option-weekly-stats-url/weekly-stats.html</string>
+    <string name="sweden_url">https://iqoption.com/land/register-long/se/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-kgom-binaryoptions-28-MAR-2017-ANDROID-SE</string>
+    <string name="norway_url">https://iqoption.com/land/register-long/no/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-kgom-binaryoptions-28-MAR-2017-ANDROID-NO</string>
+    <string name="portugal_url">https://iqoption.com/land/register-long/pt/?aff=7745&amp;afftrack=IFRAME-REGISTER-LONG-kgom-binaryoptions-28-MAR-2017-ANDROID-PORTUGAL</string>
+    <string name="tip_1" formatted = "false">We have received thousands of tips and advice since the inception of this app. And we have gathered data from the most successful IQ Option traders. The most important tip was to trade &quot;Binary&quot; only and not &quot;Turbo&quot; trade. Binary trading is less volatile, with reduced risk and forex fluctuation. On your mobile device, this is selectable from the &quot;Binary&quot; dropdown, from the upper trading dashboard menu.</string>
+    <string name="tip_2" formatted = "false">Our traders are reporting that they are earning increased profits by trading FOREX &quot;Over The Counter&quot; Options, on the Mobile trading app. The Saturday and Sunday trading environment is less volatile and far less kinetic. Some traders have reported profit increases of 85%, compared to general weekly trading. So next time you are bored on a weekend, try OTC trading with your mobile device, and PROFIT !</string>
+    <string name="tip_3" formatted = "false">Now that you are safely &quot;Binary&quot; trading and NOT &quot;Turbo&quot; trading, in accordance with Tip No#1. You should now select an extended option timeframe. Our traders have reported the highest profits, if the option is a 60+ minute timeframe. The reduced frequency trading, significantly reduces risk by a factor of 67%, and hence increases profit potential. We acknowledge that it may be less exciting, and less heart pumping, however at the end of the day &quot;Profit is King&quot;. So please resist the temptation of &quot;Turbo&quot; trading.</string>
+    <string name="tip_4" formatted = "false">NEVER trade based on emotion, whether it\'s happiness, anger or frustration. Only ever trade based on facts. Major impact FOREX currency pairs news events, present ideal unemotional trading opportunities. Within the app we have provided a list of the most critical FOREX news events for the month. We have detailed the date, currency pair, GMT time and trading trends. So please ALWAYS refer to our &quot;Trading Alerts&quot; section when trading.</string>
+    <string name="tip_5" formatted = "false">Nonfarm payroll is a monthly report generated and reported by the U.S. Bureau of Labor Statistics intended to represent the total number of paid U.S. workers of any business. Despite the name nonfarm payroll, the report excludes workers from general government jobs, private household jobs, employees of nonprofit organizations and farm employees.BREAKING DOWN &quot;Nonfarm Payroll&quot;The nonfarm payroll statistic is reported monthly, on the first Friday of the month, and is used to assist government policymakers and economists with determining the current state of the economy and predicting future levels of economic activity Why the Nonfarm Payroll Report MattersThe major statistic reported from the nonfarm payroll report is the number of additional jobs added from the previous month. The report also contains many valuable insights into the labor force that have a direct impact on the stock market, the value of the U.S. dollar and the price of gold. The nonfarm payroll report is a major tool used to determine the overall health of the economy. The total nonfarm payroll accounts for approximately 80% of the workers who produce the entire gross domestic product (GDP) of the United States.  The nonfarm payroll report shows statistics of unemployment for the U.S workforce. This is communicated through an overall unemployment rate, a long term unemployment rate and a youth unemployment rate. The labor force participation rate is also a key statistic used to determine the true unemployment rate of the country. What the Nonfarm Payroll Reports  Statistics from the nonfarm payroll also show which sectors are generating the most employment additions. The report shows large gains and losses among the sectors. The list of sectors from the report include professional and business services, health care, financial activities, mining, construction, manufacturing, wholesale trade, retail trade, transportation and warehousing, information, and leisure and hospitality. This breakdown by sector is often used by stock analysts to predict which stocks and sectors have strong earnings reports.  The report also contains additional items such as the average work week and average hourly earnings. Wage growth is communicated with the report. Each month’s report may include revisions to previous reports.  The best month for wage growth is usually May with an average of 129,000 additional jobs. August is the worst month with an average of 69,000 additional jobs. The year 1994 was the best on record with 3.85 million added jobs. That year saw gains reported in every monthly nonfarm payroll report. In 2009, the job force lost 5.05 million jobs, marking the worst statistical year for the nonfarm payroll.
+</string>
+    <string name="tip_6" formatted = "false"> You will notice as the IQ Option trading console loads on your mobile device, the following warning advisory will be displayed. &quot;FOR OPTIMAL PERFORMANCE A HIGH-SPEED CONNECTION IS RECOMMENDED&quot;. Due to the volatile and rapid high frequency trading, that is Binary Options, we highly recommend adhering to this warning.</string>
+    <string name="tip_7" formatted = "false">You can now sell the option before expiration ! By selling your option before expiration time you can now prevent your losses or fix the profit. And the new expirations panel will help you make a wiser choice.</string>
+    <string name="tip_8" formatted = "false">You will notice that IQ Option offers up to 92% Profit on options trades. However our statistics and feedback have determined that, the higher the profit return offered (ie: 92%), the higher the volatility. Most highly successful traders have actually made larger profits by targeting the lower return FOREX pairs. Generally it is recommended to trade FOREX pairs offering a profit return between 58%-70%.</string>
+    <string name="tip_9" formatted = "false">In accordance with the Tip#1 recommendation of &quot;NON&quot; Turbo trading. Our most successful traders have allotted 20% of their investment capital, towards "End of the Month" options. They have reported an overall 43% increase in monthly profits, as a result of this more disciplined trading style.</string>
+
+    <string name="tip_1_url">https://s3.eu-central-1.amazonaws.com/iq-option-top-10-tips/Tip-1/non-farm-tip-1.html</string>
+    <string name="tip_2_url">https://s3.eu-central-1.amazonaws.com/iq-option-top-10-tips/Tip-2/non-farm-tip-2.html</string>
+    <string name="tip_3_url">https://s3.eu-central-1.amazonaws.com/iq-option-top-10-tips/Tip-3/tip-3.html</string>
+    <string name="tip_4_url">https://s3.eu-central-1.amazonaws.com/iq-option-top-10-tips/Tip-4/tip-4.html</string>
+    <string name="tip_5_url">https://s3.eu-central-1.amazonaws.com/iq-option-top-10-tips/Tip-5/tip-5.html</string>
+    <string name="tip_6_url">https://s3.eu-central-1.amazonaws.com/iq-option-top-10-tips/Tip-6/tip-6.html</string>
+    <string name="tip_7_url">https://s3.eu-central-1.amazonaws.com/iq-option-top-10-tips/Tip-7/tip-7.html</string>
+    <string name="tip_8_url">https://s3.eu-central-1.amazonaws.com/iq-option-top-10-tips/Tip-8/tip-8.html</string>
+    <string name="tip_9_url">https://s3.eu-central-1.amazonaws.com/iq-option-top-10-tips/Tip-9/tip-9.html</string>
+    <string name="tip_10_url">https://s3.eu-central-1.amazonaws.com/iq-option-top-10-tips/Tip-10/tip-10-contact.html</string>
+    <string name="get_start" formatted = "false">Get Start</string>
+    <string name="privacy_policy">https://s3.eu-central-1.amazonaws.com/privacy-policy-iq-option-app/iqoption-app.html</string>
+    <string name="buy_or_sell">https://s3.eu-central-1.amazonaws.com/iq-option-top-10-tips/sentiment-index.html</string>
+    <string name="trader_of_week">https://s3.amazonaws.com/iq-option-weekly-stats-url/weekly-stats.html</string>
+
+</resources>

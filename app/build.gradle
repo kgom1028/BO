@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'smartshooter'
+            keyPassword '123456'
+            storeFile file('E:/Development/App/Android/keystore/key')
+            storePassword '123456'
+        }
+    }
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+    defaultConfig {
+        applicationId "com.kgom.binaryoptions"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 29
+        versionName "3.54"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            debuggable true
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.1.1'
+    compile 'com.google.firebase:firebase-core:9.6.1'
+    compile 'com.google.firebase:firebase-messaging:9.6.1'
+    compile 'com.google.firebase:firebase-analytics:9.6.1'
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.1'
+    //   compile 'com.google.android.gms:play-services:9.4.0'
+    compile 'com.appsflyer:af-android-sdk:4+@aar'
+    compile files('libs/acra-4.6.1.jar')
+    compile files('libs/gson-2.7.jar')
+    compile files('libs/libs.jar')
+    compile 'com.eftimoff:android-viewpager-transformers:1.0.1@aar'
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_black">#000000</color>
+    <color name="color_transparent">#AF000000</color>
+    <color name="color_clear">#00FFFFFF</color>
+
+    <color name="color_white">#ffffff</color>
+    <color name="color_grey">#999999</color>
+    <color name="color_button">#1b8e7d </color>
+    <color name="color_facebook">#4861a3</color>
+    <color name="color_googleplus">#db4a37</color>
+    <color name="color_orange">#fe6601</color>
+    <color name="color_dark_gray">#33343a</color>
+    <color name="color_select_back">#1d2025</color>
+    <color name="list_item_color_1">#80f74e0c</color>
+    <color name="list_item_color_2">#80000000</color>
+    <color name="color_blue">#4861a3</color>
+    <color name="color_green">#2cab40</color>
+    <color name="color_tip_back">#505050</color>
+    <color name="color_tip_text">#FFFFFF</color>
+</resources>

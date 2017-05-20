@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/disclaimer_back">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/actionbar_height"
+            android:background="@color/color_black"
+            android:id="@+id/actionBar">
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="@dimen/actionbar_info_icon_size"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back_ic"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="@dimen/actionbar_info_margin_left"
+                android:clickable="true"
+                android:id="@+id/back_icon"
+                android:onClick="onClick"
+                />
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/title"
+                android:layout_centerInParent="true"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/disclaimer_title"
+                android:layout_centerInParent="true"
+                android:padding="30dp"/>
+
+            </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <CheckBox
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/check_img"
+                android:checked="true"
+                android:button="@drawable/drawable_check"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:id="@+id/terms_and_policy"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="onClick">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_15sp"
+                    android:textColor="@color/color_white"
+                    android:textStyle="bold"
+                    android:text="@string/terms_and_policy"
+                   />
+                </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/select_language_item_height"
+            android:background="@drawable/drawable_button_orange"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="120dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:onClick="onClick"
+            android:id="@+id/continue_btn"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color_white"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_normal"
+                android:text = "@string/click_to_continue"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

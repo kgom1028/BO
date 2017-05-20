@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body background="background.png">
+<p align="center">
+<img src="header.png"  height="150" width="100%"></p>
+<p align="center"><span style="color: rgb(255, 255, 255);">DAILY TRADING SENTIMENT INDEX</span></p>
+<p align="center" ><span style="color: rgb(255, 255, 255);"><font size=6>(To refresh the page, exit to the main menu, and return. The data is updated every 2-3 minutes)</font></span></p>
+<iframe scrolling="no" allowtransparency="true" marginwidth="0" marginheight="0" src="https://ssltools.forexprostools.com/technical_summary.php?pairs=1,2,5,6,9,18,3,7,10,11,49,117,4,8,12&amp;curr-name-color=%230059B0&amp;fields=1d&amp;force_lang=1" width="100%" height="360" frameborder="0"></iframe><br />
+
+<iframe scrolling="no" allowtransparency="true" marginwidth="0" marginheight="0" src="https://ssltools.forexprostools.com/technical_summary.php?pairs=1,2,5,6,9,18,3,7,10,11,49,117,4,8,12&amp;curr-name-color=%230059B0&amp;fields=1h&amp;force_lang=1" width="100%" height="360" frameborder="0"></iframe><br />
+
+<iframe scrolling="no" allowtransparency="true" marginwidth="0" marginheight="0" src="https://ssltools.forexprostools.com/technical_summary.php?pairs=1,2,5,6,9,18,3,7,10,11,49,117,4,8,12&amp;curr-name-color=%230059B0&amp;fields=15m&amp;force_lang=1" width="100%" height="360" frameborder="0"></iframe><br />
+
+<iframe scrolling="no" allowtransparency="true" marginwidth="0" marginheight="0" src="https://ssltools.forexprostools.com/technical_summary.php?pairs=1,2,5,6,9,18,3,7,10,11,49,117,4,8,12&amp;curr-name-color=%230059B0&amp;fields=5m&amp;force_lang=1" width="100%" height="360" frameborder="0"></iframe><br />
+
+<p>&nbsp;</p>
+<div style="width:280px;"><span style="float:left"><span style="font-size: 11px;color: #333333;text-decoration: none;"> <a href="https://www.example.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link"></a></span></span></div><span style="color: #f4f4f4;">vvvvvv</span>
+</body>
+</html>
